@@ -1,10 +1,16 @@
 # Redis 应用实例
 
+## 环境
+- redis v8.2.0
+- docker v24.0.6, build ed223bc
+
 ## 快速开始
 ### 1. 启动 redis 服务
 ```bash
-bash redis.sh
+bash redis.sh up
 ```
+
+> 关闭命令为 `bash redis.sh down`
 
 启动后，样例日志如下
 ```bash

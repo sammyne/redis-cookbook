@@ -1,7 +1,20 @@
 #!/bin/bash
 
-docker run -td --rm --name redis -p 6379:6379 redis:8.2.0-bookworm
+case "$1" in
+  down)
+    docker rm -f redis
+  ;; 
 
-host=`docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' redis`
+  up)
+    docker run -td --rm --name redis -p 6379:6379 redis:8.2.0-bookworm
 
-echo "redis 的监听地址为 $host:6379"
+    host=`docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' redis`
+
+    echo "redis 的监听地址为 $host:6379"
+  ;;
+
+  *)
+    echo "未知命令 '$1'"
+    exit 1
+  ;;
+esac
