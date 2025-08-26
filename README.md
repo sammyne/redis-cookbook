@@ -29,6 +29,7 @@ export REDIS_HOST=172.17.0.6
 ## 进度
 - [ ] 第一部分 内部组件
   - [x] 01. 缓存文本数据
+  - [x] 09. 二元操作记录器
 
 ## 参考文献
 - https://github.com/huangzworks/rediscookbook
