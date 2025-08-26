@@ -31,6 +31,7 @@ export REDIS_HOST=172.17.0.6
   - [x] 01. 缓存文本数据
   - [x] 04. 带密码保护的锁
   - [x] 09. 二元操作记录器
+  - [x] 10. 资源池
 
 ## 参考文献
 - https://github.com/huangzworks/rediscookbook
