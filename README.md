@@ -40,6 +40,7 @@ export REDIS_HOST=172.17.0.6
   - [x] 10. 资源池
   - [x] 11. 紧凑字符串
   - [x] 12. 数据库迭代器
+  - [x] 13. 流迭代器
 
 ## 参考文献
 - https://github.com/huangzworks/rediscookbook
