@@ -27,7 +27,7 @@ export REDIS_HOST=172.17.0.6
 进入各章的 python 项目文件夹，用 uv 执行 src 目录下的 python 脚本即可。
 
 ## 进度
-- [ ] 第一部分 内部组件
+- [x] 第一部分 内部组件
   - [x] 01. 缓存文本数据
   - [x] 02. 缓存二进制数据
   - [x] 03. 锁
@@ -41,6 +41,8 @@ export REDIS_HOST=172.17.0.6
   - [x] 11. 紧凑字符串
   - [x] 12. 数据库迭代器
   - [x] 13. 流迭代器
+- [ ] 第二部分 外部应用
+  - [x] 14. 消息队列
 
 ## 参考文献
 - https://github.com/huangzworks/rediscookbook
