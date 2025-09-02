@@ -43,6 +43,7 @@ export REDIS_HOST=172.17.0.6
   - [x] 13. 流迭代器
 - [ ] 第二部分 外部应用
   - [x] 14. 消息队列
+  - [x] 15. 标签系统
 
 ## 参考文献
 - https://github.com/huangzworks/rediscookbook
