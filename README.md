@@ -44,6 +44,7 @@ export REDIS_HOST=172.17.0.6
 - [ ] 第二部分 外部应用
   - [x] 14. 消息队列
   - [x] 15. 标签系统
+  - [x] 16. 自动补全
 
 ## 参考文献
 - https://github.com/huangzworks/rediscookbook
