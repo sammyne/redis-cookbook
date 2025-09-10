@@ -47,6 +47,7 @@ export REDIS_HOST=172.17.0.6
   - [x] 16. 自动补全
   - [x] 17. 抽奖
   - [x] 18. 社交关系
+  - [x] 19. 登录会话
 
 ## 参考文献
 - https://github.com/huangzworks/rediscookbook
