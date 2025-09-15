@@ -50,6 +50,7 @@ export REDIS_HOST=172.17.0.6
   - [x] 19. 登录会话
   - [x] 20. 短网址生成器
   - [x] 21. 投票
+  - [x] 22. 排行榜
 
 ## 参考文献
 - https://github.com/huangzworks/rediscookbook
