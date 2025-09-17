@@ -52,6 +52,7 @@ export REDIS_HOST=172.17.0.6
   - [x] 21. 投票
   - [x] 22. 排行榜
   - [x] 23. 分页
+  - [x] 24. 时间线
 
 ## 参考文献
 - https://github.com/huangzworks/rediscookbook
