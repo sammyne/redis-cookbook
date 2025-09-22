@@ -1,0 +1,13 @@
+[project]
+name = "chapter27"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "chapter26",
+    "redis>=6.4.0",
+]
+
+[tool.uv.sources]
+chapter26 = { path = "../chapter26", editable = true }

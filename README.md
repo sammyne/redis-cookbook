@@ -56,6 +56,7 @@ export REDIS_HOST=172.17.0.6
   - [x] 25. 地理位置
 - [ ] 第三部分  数据结构
   - [x] 26. 先进先出队列
+  - [x] 27. 定长队列和淘汰队列
 
 ## 参考文献
 - https://github.com/huangzworks/rediscookbook
